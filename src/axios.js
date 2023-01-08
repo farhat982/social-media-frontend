@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export const makeRequest = axios.create({
-  baseURL: 'http://localhost:8000/api/',
-  withCredentials: true,
+	baseURL: 'https://social-media-backend-i91c.onrender.com/api/',
+	withCredentials: true,
 });
