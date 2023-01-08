@@ -1,0 +1,17 @@
+@import '../../darkTheme.scss';
+
+.home {
+  @include themify($themes) {
+    padding: 20px;
+    background-color: themed('bgsoft');
+    color: themed('textColorsoft');
+    min-height: 100vh;
+
+    @include mobile {
+      padding: 10px;
+    }
+    @include tablet {
+      padding: 10px;
+    }
+  }
+}
